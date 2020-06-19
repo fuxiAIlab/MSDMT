@@ -22,6 +22,7 @@ The code has been tested running under Python 3.5.2, with the following packages
 - numpy == 1.18.2
 - pandas == 0.23.4
 - sklearn == 0.19.1
+- keras == 2.3.1
 
 ### Running the code 
 ```
