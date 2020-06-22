@@ -12,6 +12,7 @@ On the other hand, MSDMT considers the significant correlation between the playe
   - `player_portrait.csv`: the sample data for player portrait.
   - `behavior_sequence.csv`: the sample data for behavior sequence.
   - `social_network.csv`: the sample data for social network.
+  - `label.csv`: the sample data for label, where label1 denotes churn label (binary classification) and label2 denotes payment label (regression).
 - `src/`: implementations of MSDMT.
   - `preprocess.py`
   - `main.py`
