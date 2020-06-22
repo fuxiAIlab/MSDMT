@@ -8,7 +8,7 @@ On the other hand, MSDMT considers the significant correlation between the playe
 
 ### Files in the folder
 
-- `data/`: data of MSDMT (we only give sample data to show the data format, not the real data).
+- `data/`: data of MSDMT (we only give **sample data** to show the data format, **not the real data**).
   - `player_portrait.csv`: the sample data for player portrait.
   - `behavior_sequence.csv`: the sample data for behavior sequence.
   - `social_network.csv`: the sample data for social network.
