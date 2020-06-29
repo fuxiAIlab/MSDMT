@@ -13,8 +13,9 @@ On the other hand, MSDMT considers the significant correlation between the playe
   - `social_network.csv`: the sample data for social network.
   - `label.csv`: the sample data for label, where label1 denotes churn label (binary classification) and label2 denotes payment label (regression).
 - `src/`: implementations of MSDMT.
-  - `preprocess.py`
-  - `main.py`
+  - `preprocess.py`: the code for data processing.
+  - `model.py`: the code for model.
+  - `main.py`: the code for pipeline.
 
 ## Requirements
 The code has been tested running under Python 3.5.2, with the following packages installed (along with their dependencies):
@@ -27,6 +28,5 @@ The code has been tested running under Python 3.5.2, with the following packages
 ## Training
 ```
 $ cd src
-$ python preprocess.py 
 $ python main.py 
 ```
