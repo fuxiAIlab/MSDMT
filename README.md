@@ -1,6 +1,8 @@
 # MSDMT
 
-This repo is the TF2.0 implementation of [MSDMT](https://ieeexplore.ieee.org/abstract/document/9231585)[PDF](https://ieee-cog.org/2020/papers/paper_45.pdf).
+This repo is the TF2.0 implementation of [MSDMT](https://ieeexplore.ieee.org/abstract/document/9231585).
+
+Multi-source Data Multi-task Learning for Profiling Players in Online Games  [[PDF](https://ieee-cog.org/2020/papers/paper_45.pdf)]
 
 MSDMT is a novel Multi-source Data Multi-task Learning approach for profiling players with both player churn and payment prediction in online games. 
 On the one hand, MSDMT considers that heterogeneous multi-source data, including player portrait tabular data, behavior sequence sequential data, and social network graph data, can complement each other for a better understanding of each player.
