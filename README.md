@@ -7,7 +7,7 @@ On the one hand, MSDMT considers that heterogeneous multi-source data, including
 On the other hand, MSDMT considers the significant correlation between the player churn and payment that can interact and complement each other.
 
 ## Folders
-- `data/`: data of MSDMT (we only give **sample data generated randomly** to show the data format, **not the real data**).
+- `data/`: data of MSDMT (**randomly generated sample data** to show the data format, **not the real data**).
   - `sample_data_player_portrait.csv`: the sample data for player portrait.
   - `sample_data_behavior_sequence.csv`: the sample data for behavior sequence.
   - `sample_data_social_network.csv`: the sample data for social network.
