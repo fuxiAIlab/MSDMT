@@ -56,7 +56,7 @@ class MSDMT(tf.keras.Model):
                                             activation='relu'),
                     tf.keras.layers.Dropout(rate=self.dropout),
                     tf.keras.layers.Dense(units=self.network_dim,
-                                          activation='relu'))
+                                          activation='relu')])
 
         self.output1 = tf.keras.layers.Dense(units=1, activation='sigmoid', name='output1')
         self.output2 = tf.keras.layers.Dense(units=1, activation=None, name='output2')
