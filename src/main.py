@@ -22,10 +22,10 @@ maxlen = 64
 
 
 def data_process(timestep=10, maxlen=64):
-    df_U = pd.read_csv('./data/sample_data_player_portrait.csv')
-    df_B = pd.read_csv('./data/sample_data_behavior_sequence.csv')
-    df_G = pd.read_csv('./data/sample_data_social_network.csv')
-    df_Y = pd.read_csv('./data/sample_data_label.csv')
+    df_U = pd.read_csv('../data/sample_data_player_portrait.csv')
+    df_B = pd.read_csv('../data/sample_data_behavior_sequence.csv')
+    df_G = pd.read_csv('../data/sample_data_social_network.csv')
+    df_Y = pd.read_csv('../data/sample_data_label.csv')
 
     U = df_U.drop(['uid', 'ds'], axis=1).values
     U = U.reshape(-1, timestep, U.shape[-1])
